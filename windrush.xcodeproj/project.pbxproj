@@ -11,12 +11,12 @@
 		41857D692C7CBBE400B13F70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41857D682C7CBBE400B13F70 /* SceneDelegate.swift */; };
 		41857D6B2C7CBBE400B13F70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41857D6A2C7CBBE400B13F70 /* ViewController.swift */; };
 		41857D6E2C7CBBE400B13F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41857D6C2C7CBBE400B13F70 /* Main.storyboard */; };
-		41857D702C7CBBE700B13F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41857D6F2C7CBBE700B13F70 /* Assets.xcassets */; };
 		41857D732C7CBBE700B13F70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41857D712C7CBBE700B13F70 /* LaunchScreen.storyboard */; };
 		41857D7E2C7CBBE700B13F70 /* windrushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41857D7D2C7CBBE700B13F70 /* windrushTests.swift */; };
 		41857D882C7CBBE700B13F70 /* windrushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41857D872C7CBBE700B13F70 /* windrushUITests.swift */; };
 		41857D8A2C7CBBE700B13F70 /* windrushUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41857D892C7CBBE700B13F70 /* windrushUITestsLaunchTests.swift */; };
 		41857D972C7CBE2900B13F70 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 41857D962C7CBE2900B13F70 /* README.md */; };
+		41857D992C7E6D9B00B13F70 /* ASSETS in Resources */ = {isa = PBXBuildFile; fileRef = 41857D982C7E6D9B00B13F70 /* ASSETS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 		41857D682C7CBBE400B13F70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		41857D6A2C7CBBE400B13F70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41857D6D2C7CBBE400B13F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		41857D6F2C7CBBE700B13F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41857D722C7CBBE700B13F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41857D742C7CBBE700B13F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41857D792C7CBBE700B13F70 /* windrushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = windrushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,7 @@
 		41857D872C7CBBE700B13F70 /* windrushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = windrushUITests.swift; sourceTree = "<group>"; };
 		41857D892C7CBBE700B13F70 /* windrushUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = windrushUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		41857D962C7CBE2900B13F70 /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41857D982C7E6D9B00B13F70 /* ASSETS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ASSETS; path = ../../../Desktop/ASSETS; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,11 +102,11 @@
 		41857D652C7CBBE400B13F70 /* windrush */ = {
 			isa = PBXGroup;
 			children = (
+				41857D982C7E6D9B00B13F70 /* ASSETS */,
 				41857D662C7CBBE400B13F70 /* AppDelegate.swift */,
 				41857D682C7CBBE400B13F70 /* SceneDelegate.swift */,
 				41857D6A2C7CBBE400B13F70 /* ViewController.swift */,
 				41857D6C2C7CBBE400B13F70 /* Main.storyboard */,
-				41857D6F2C7CBBE700B13F70 /* Assets.xcassets */,
 				41857D712C7CBBE700B13F70 /* LaunchScreen.storyboard */,
 				41857D742C7CBBE700B13F70 /* Info.plist */,
 			);
@@ -235,7 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41857D732C7CBBE700B13F70 /* LaunchScreen.storyboard in Resources */,
-				41857D702C7CBBE700B13F70 /* Assets.xcassets in Resources */,
+				41857D992C7E6D9B00B13F70 /* ASSETS in Resources */,
 				41857D972C7CBE2900B13F70 /* README.md in Resources */,
 				41857D6E2C7CBBE400B13F70 /* Main.storyboard in Resources */,
 			);
